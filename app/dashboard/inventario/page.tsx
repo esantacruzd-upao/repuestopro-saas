@@ -33,10 +33,10 @@ export default function Inventario() {
     return coincideBusqueda;
   });
 
-  return (
-    <div>
+return(
+<div>
       <div className="flex justify-between items-center mb-8">
-        <h1 className="text-3xl font-bold">Inventario • {productos.length} productos</h1>
+        <h1 className="text-3xl font-bold">Inventario - {productos.length} productos</h1>
         
         <div className="flex gap-4">
           <input
