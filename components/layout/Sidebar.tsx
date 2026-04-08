@@ -9,8 +9,9 @@ const menuItems = [
   { href: '/dashboard/pos', label: 'POS / Venta', icon: ShoppingCart },
   { href: '/dashboard/facturacion', label: 'Facturación SUNAT', icon: FileText },
   { href: '/dashboard/clientes', label: 'Clientes', icon: Users },
-  { href: '/dashboard/reportes', label: 'Reportes', icon: BarChart3 },
+  { href: '/dashboard/proveedores', label: 'Proveedores', icon: Users },     // ← Nueva
   { href: '/dashboard/ordenes', label: 'Órdenes de Compra', icon: Truck },
+  { href: '/dashboard/reportes', label: 'Reportes', icon: BarChart3 },
 ];
 
 export default function Sidebar() {
