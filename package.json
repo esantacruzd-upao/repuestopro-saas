@@ -1,0 +1,17 @@
+{
+  "name": "repuestopro-saas",
+  "version": "1.0.0",
+  "description": "SaaS para tiendas de autopartes con facturación SUNAT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.2.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "lucide-react": "^0.441.0"
+  }
+}
