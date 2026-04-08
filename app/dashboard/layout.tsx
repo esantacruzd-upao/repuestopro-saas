@@ -1,8 +1,8 @@
 'use client';
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import Sidebar from '@/components/layout/Sidebar';
-import Header from '@/components/layout/Header';
+import Sidebar from '../../components/layout/Sidebar';   // ← Ruta relativa corregida
+import Header from '../../components/layout/Header';     // ← Ruta relativa corregida
 
 export default function DashboardLayout({
   children,
